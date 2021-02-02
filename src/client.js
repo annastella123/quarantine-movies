@@ -4,7 +4,7 @@ const socketIOClient = require("socket.io-client");
 // When deployed, connect to the hosted server, otherwise connect to local server
 // Localhost port must match server
 let host = process.env.NODE_ENV === 'production' ?
-    "appname.herokuapp.com" : "localhost:4002"   
+    "react-quarantine-movies.herokuapp.com" : "localhost:4002"
 let socket = socketIOClient.connect(host, {secure: true});
 // Checks which host we're connected to (for troubleshooting);
 console.log("connected to " + host);
