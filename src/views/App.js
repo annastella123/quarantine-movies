@@ -44,7 +44,7 @@ class App extends Component {
                   <h3>Welcome {this.props.username}</h3>
                   :''
                 }
-                <h1 className="header">Quarantine Movies</h1>
+                <h1 className="header">Movies For Quarantine</h1>
               {this.props.currentUser === -1 ?
               <Fragment> 
                 <Navbar/>
